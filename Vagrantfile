@@ -4,7 +4,7 @@
 #Vagrantfile API/syntax version. Dont touch unless you know what you're doing 
 Vagrant.configure("2") do |config|
   
-  config.vm.box = "bento/centos-7"
+  config.vm.box = "learningchef/centos65"
 
   config.vm.network "forwarded_port", guest: 80, host: 8080
   
